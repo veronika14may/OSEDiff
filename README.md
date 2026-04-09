@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 
 <h1>One-Step Effective Diffusion Network for Real-World Image Super-Resolution</h1>
@@ -23,6 +23,8 @@
 #### 🚩Accepted by NeurIPS2024
 
 ## 🔥 News
+- [2026.04] Added [VOSR](https://github.com/cswry/VOSR): [Paper](https://arxiv.org/pdf/2604.03225) | [Code](https://github.com/cswry/VOSR). A vision-only generative model for native image super-resolution.
+- [2025.07] Added [TVT](https://github.com/Joyies/TVT): [Paper](https://arxiv.org/abs/2507.20291) | [Code](https://github.com/Joyies/TVT). We re-train the VAE of SD2.1 while maintaining its UNet for more precise Real-ISR.
 - [2024.12] Updated OSEDiff-SD21base-face.
 - [2024.10] Updated training codes and [paper](https://arxiv.org/pdf/2406.08177). 💥💥💥Congratulations, OSEDiff has been applied to the OPPO Find X8 series!
 - [2024.07] Release OSEDiff-SD21base.
@@ -35,17 +37,25 @@
 
 😊 You may also want to check our new updates:
 
-1. **CCSRv2 (2024.09)** [Paper](https://arxiv.org/pdf/2401.00877v2) | [Code](https://github.com/csslc/CCSR)  
+- **VOSR (2026.04)** [Paper](https://arxiv.org/pdf/2604.03225) | [Code](https://github.com/cswry/VOSR)  🚩 Accepted by **CVPR2026**
 
-   Flexible and efficient diffusion sampling for super-resolution, **supporting arbitrary number of inference steps**, *e.g.*, 1~15 step(s).
+  A vision-only native generative framework for image restoration.
 
-2. **AdcSR (2024.11)** [Paper](https://arxiv.org/pdf/2411.13383) | [Code](https://github.com/Guaishou74851/AdcSR) 🚩 Accepted by **CVPR2025**
+- **TVT (2025.07)** [Paper](https://arxiv.org/abs/2507.20291) | [Code](https://github.com/Joyies/TVT)  🚩 Accepted by **ICCV2025**
 
-   Adversarial Diffusion Compression framework for super-resolution, **offering up to 9.3× speedup over OSEDiff**.
+  We re-train the VAE of SD2.1 while maintaining its UNet for more precise Real-ISR.
 
-3. **PiSA-SR (2024.12)** [Paper](https://arxiv.org/pdf/2412.03017) | [Code](https://github.com/csslc/PiSA-SR)  🚩 Accepted by **CVPR2025**
+- **PiSA-SR (2024.12)** [Paper](https://arxiv.org/pdf/2412.03017) | [Code](https://github.com/csslc/PiSA-SR)  🚩 Accepted by **CVPR2025**
 
-   Adjustable diffusion network for super-resolution to meet your preference!
+  Adjustable diffusion network for super-resolution to meet your preference!
+
+- **AdcSR (2024.11)** [Paper](https://arxiv.org/pdf/2411.13383) | [Code](https://github.com/Guaishou74851/AdcSR) 🚩 Accepted by **CVPR2025**
+
+  Adversarial Diffusion Compression framework for super-resolution, **offering up to 9.3× speedup over OSEDiff**.
+
+- **CCSRv2 (2024.09)** [Paper](https://arxiv.org/pdf/2401.00877v2) | [Code](https://github.com/csslc/CCSR)  🚩 Accepted by **TIP2026**
+
+  Flexible and efficient diffusion sampling for super-resolution, **supporting arbitrary number of inference steps**, *e.g.*, 1~15 step(s).
 
 
 ## 🎬 Overview
@@ -70,7 +80,7 @@
 
 3. Download Models 
 #### Dependent Models
-* [SD21 Base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base)
+* [SD21 Base](https://huggingface.co/Manojb/stable-diffusion-2-1-base)
 * [RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth)
 * [DAPE](https://drive.google.com/file/d/1KIV6VewwO2eDC9g4Gcvgm-a0LDI7Lmwm/view?usp=drive_link)
 
@@ -274,5 +284,3 @@ The following are BibTeX references: -->
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=cswry/OSEDiff)
 
 </details>
-
-
