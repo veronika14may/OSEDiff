@@ -22,15 +22,7 @@
 
 #### 🚩Accepted by NeurIPS2024
 
-## 🔥 News
-- [2026.04] Added [VOSR](https://github.com/cswry/VOSR): [Paper](https://arxiv.org/pdf/2604.03225) | [Code](https://github.com/cswry/VOSR). A vision-only generative model for native image super-resolution.
-- [2025.07] Added [TVT](https://github.com/Joyies/TVT): [Paper](https://arxiv.org/abs/2507.20291) | [Code](https://github.com/Joyies/TVT). We re-train the VAE of SD2.1 while maintaining its UNet for more precise Real-ISR.
-- [2024.12] Updated OSEDiff-SD21base-face.
-- [2024.10] Updated training codes and [paper](https://arxiv.org/pdf/2406.08177). 💥💥💥Congratulations, OSEDiff has been applied to the OPPO Find X8 series!
-- [2024.07] Release OSEDiff-SD21base.
-- [2024.06] This repo is created.
 
-:star: If OSEDiff is helpful to your images or projects, please help star this repo. Thanks! :hugs:
 
 
 
@@ -57,6 +49,13 @@
 
   Flexible and efficient diffusion sampling for super-resolution, **supporting arbitrary number of inference steps**, *e.g.*, 1~15 step(s).
 
+## 🔥 News
+- [2024.12] Updated OSEDiff-SD21base-face.
+- [2024.10] Updated training codes and [paper](https://arxiv.org/pdf/2406.08177). 💥💥💥Congratulations, OSEDiff has been applied to the OPPO Find X8 series!
+- [2024.07] Release OSEDiff-SD21base.
+- [2024.06] This repo is created.
+
+:star: If OSEDiff is helpful to your images or projects, please help star this repo. Thanks! :hugs:
 
 ## 🎬 Overview
 ![overview](asserts/framework.jpg)
