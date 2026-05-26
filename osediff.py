@@ -73,7 +73,7 @@ class OSEDiff_gen(torch.nn.Module):
 
         self.tokenizer = AutoTokenizer.from_pretrained(args.pretrained_model_name_or_path, subfolder="tokenizer")
         self.text_encoder = CLIPTextModel.from_pretrained(args.pretrained_model_name_or_path, subfolder="text_encoder").cuda()
-        self.noise_scheduler = DDPMScheduler.from_pretrained(args.pretrained_model_name_or_path, subfolder="scheduler")
+        self.noise_scheduler = DDPMScheduler.from_pretrained('/kaggle/working', subfolder="scheduler")
         self.noise_scheduler.set_timesteps(1, device="cuda")
         self.noise_scheduler.alphas_cumprod = self.noise_scheduler.alphas_cumprod.cuda()
         self.args = args
